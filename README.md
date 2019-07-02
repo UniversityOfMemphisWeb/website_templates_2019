@@ -3,6 +3,7 @@
 ## Visual Reference
 
 [Homepage](http://demo.stakt.com/uofm2019/homepage.html)
+
 [Microsite](http://demo.stakt.com/uofm2019/microsite.html)
 
 ## Notes
