@@ -1,0 +1,673 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>The University of Memphis</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,700,400italic" rel="stylesheet" type="text/css" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic"
+        rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.typekit.net/jps7qpo.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="css/style.css?ver=20190701" />
+</head>
+
+<body>
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+    <div id="hamburger-menu" class="hamburger-menu bg-blue p-2 p-md-3">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-end">
+                <form action="" method="" class="mt-2">
+                    <input class="search" type="text" name="search" placeholder="Search" aria-label="Search" />
+                    <span class="fas fa-search fa-2x"></span>
+                    <span class="sr-only">Search</span>
+                </form>
+                <a href="#" class="toggle-menu px-3 ml-5 hide-menu" id="hide-menu">X</a>
+            </div>
+            <div class="d-flex mt-5">
+                <ul class="nav hamburger-menu-left flex-column text-right pt-3 pr-3">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Prospective Students</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Current Students</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Parents &amp; Family</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Alumni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Veterans</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Faculty &amp; Staff</a>
+                    </li>
+                </ul>
+                <nav class="nav hamburger-menu-right flex-column pl-3">
+                    <div class="btn-group flex-column">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Admissions</a>
+                        <div class="dropdown-menu">
+                            <ul class="nav d-flex flex-column pl-5">
+                                <li class="nav-item"><a href="https://www.memphis.edu/admissions/"
+                                        title="Admissions Information"
+                                        onclick="taglink('TopNav', 'DropDownAdmissions', 'AdmissionsInformation');">Admissions
+                                        Information</a></li>
+                                <li class="nav-item"><a
+                                        href="https://www.memphis.edu/admissions/freshmen/apply_ugrd.php"
+                                        aria-label="Apply for Undergraduate Admission" title="Undergraduate Students"
+                                        onclick="taglink('TopNav', 'DropDownAdmissions', 'UndergraduateStudents');">Undergraduate
+                                        Students</a></li>
+                                <li class="nav-item"><a
+                                        href="https://www.memphis.edu/graduateadmissions/future/apply_grad.php"
+                                        aria-label="Apply for Graduate Admission" title="Graduate Students"
+                                        onclick="taglink('TopNav', 'DropDownAdmissions', 'GraduateStudents');">Graduate
+                                        Students</a></li>
+                                <li class="nav-item"><a href="https://www.memphis.edu/law/admissions/"
+                                        title="Law Students" aria-label="Apply for Law Admission"
+                                        onclick="taglink('TopNav', 'DropDownAdmissions', 'LawStudents');">Law
+                                        Students</a>
+                                </li>
+                                <li class="nav-item"><a
+                                        href="https://www.memphis.edu/admissions/international/apply_intl.php"
+                                        aria-label="Apply for International Admission"
+                                        onclick="taglink('TopNav', 'DropDownAdmissions', 'InternationalStudents');">International
+                                        Students</a></li>
+                                <li class="nav-item"><a title="Main Campus experience" aria-label="Virtual tour header"
+                                        href="#" target="_blank" class=" processed">Virtual Tour</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="btn-group flex-column">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Academics</a>
+                        <div class="dropdown-menu">
+                            <ul class="nav d-flex flex-column pl-5">
+                                <li class="nav-item"><a href="https://www.memphis.edu/admissions/"
+                                        title="Admissions Information"
+                                        onclick="taglink('TopNav', 'DropDownAdmissions', 'AdmissionsInformation');">Admissions
+                                        Information</a></li>
+                                <li class="nav-item"><a
+                                        href="https://www.memphis.edu/admissions/freshmen/apply_ugrd.php"
+                                        aria-label="Apply for Undergraduate Admission" title="Undergraduate Students"
+                                        onclick="taglink('TopNav', 'DropDownAdmissions', 'UndergraduateStudents');">Undergraduate
+                                        Students</a></li>
+                                <li class="nav-item"><a
+                                        href="https://www.memphis.edu/graduateadmissions/future/apply_grad.php"
+                                        aria-label="Apply for Graduate Admission" title="Graduate Students"
+                                        onclick="taglink('TopNav', 'DropDownAdmissions', 'GraduateStudents');">Graduate
+                                        Students</a></li>
+                                <li class="nav-item"><a href="https://www.memphis.edu/law/admissions/"
+                                        title="Law Students" aria-label="Apply for Law Admission"
+                                        onclick="taglink('TopNav', 'DropDownAdmissions', 'LawStudents');">Law
+                                        Students</a>
+                                </li>
+                                <li class="nav-item"><a
+                                        href="https://www.memphis.edu/admissions/international/apply_intl.php"
+                                        aria-label="Apply for International Admission"
+                                        onclick="taglink('TopNav', 'DropDownAdmissions', 'InternationalStudents');">International
+                                        Students</a></li>
+                                <li class="nav-item"><a title="Main Campus experience" aria-label="Virtual tour header"
+                                        href="#" target="_blank" class=" processed">Virtual Tour</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="btn-group flex-column">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Research</a>
+                    </div>
+                    <div class="btn-group flex-column">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Libraries</a>
+                    </div>
+                    <div class="btn-group flex-column">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Athletics</a>
+                    </div>
+                    <div class="btn-group flex-column">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Support UofM</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="bg-blue">
+            <div class="container-fluid px-lg-5 d-flex py-3 align-items-center">
+                <a href="#" class="header-logo mr-auto">
+                    <img src="img/UofM-Logo.png" alt="University of Memphis Logo" />
+                </a>
+                <div class="d-flex align-items-center">
+                    <a href="#">
+                        <span class="fas fa-search fa-lg"></span>
+                        <span class="sr-only">Search</span>
+                    </a>
+                    <div class="menu-icon-wrap p-2 ml-3">
+                        <a href="#" class="d-flex align-items-center toggle-menu">
+                            <span class="fas fa-bars fa-2x"></span>
+                            <span class="ml-2">Menu</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-darkblue py-3">
+            <div class="container-fluid px-lg-5 position-relative">
+                <h1 class="subpage-title text-uppercase">Contact University of Memphis</h1>
+                <div class="nationally-ranked-badge">
+                    <img src="img/Nationally-Ranked-Badge4.png" alt="Nationally Ranked Badge" />
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid px-lg-5">
+            <nav class="navbar navbar-expand-lg ml-0 pl-0 secondary-nav" role="navigation">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Areas of Study</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Research</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Scholarships</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Students</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Resources</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Careers</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="subpage-hero" style="background-image: url('img/hero-contact.jpg');">
+
+        </div>
+        <div class="d-flex">
+            <div class="flex-fill bg-blue py-1 py-md-2 mr-1"></div>
+            <div class="flex-fill bg-teal mr-1"></div>
+            <div class="flex-fill bg-green mr-1"></div>
+            <div class="flex-fill bg-darkblue"></div>
+        </div>
+        <div class="sticky-footer horizontal-list position-fixed w-100">
+            <div class="container d-flex py-3">
+                <nav class="d-flex flex-column flex-md-row mr-auto">
+                    <a href="#">Courseware</a>
+                    <a href="#">umMail</a>
+                    <a href="#">myMemphis</a>
+                    <a href="#">Directories</a>
+                </nav>
+                <nav class="d-flex flex-column flex-md-row accent-logo">
+                    <a href="#">Visit</a>
+                    <a href="#">Apply</a>
+                    <a href="#">Give</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container-fluid py-5 content-subpage">
+        <div class="row">
+            <aside class="col-12 col-lg-4 col-xl-3 order-2 order-lg-1 mt-5 mt-lg-0 pl-lg-5">
+                <div class="bg-darkblue text-uppercase pl-1 py-1">Contact the U of M</div>
+                <div class="mt-2 mb-5">
+                    <nav class="navbar" role="navigation">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="" class="nav-link">UofM Operator</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Student Recruitment</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Registrar HelpLine</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Fee Payment</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Police Services</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="bg-darkblue text-uppercase pl-1 py-1">Follow Us</div>
+                <div class="social-icons text-lightblue mt-2 mb-5">
+                    <a href="#">
+                        <span class="fab fa-instagram fa-2x"></span>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                    <a class="ml-3" href="#">
+                        <span class="fab fa-facebook-square fa-2x"></span>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                    <a class="ml-3" href="#">
+                        <span class="fab fa-twitter-square fa-2x"></span>
+                        <span class="sr-only">twitter</span>
+                    </a>
+                </div>
+
+                <div class="bg-darkblue text-uppercase pl-1 py-1">Nationally Ranked</div>
+                <div class="mt-2 mb-5">
+                    <div class="d-flex mb-3">
+                        <img src="img/Icon-Nationally_Ranked.png" alt="Nationally Ranked Badge" />
+                        <p class="px-3">#147<br>
+                            U.S. News
+                            and World Report<br>
+                            Fine Arts - Graduate</p>
+                    </div>
+                    <a href="" class="btn btn-teal">View All Rankings</a>
+                </div>
+                <div class="bg-darkblue text-uppercase pl-1 py-1">Virtual Tour</div>
+                <div class="mt-2 mb-5">
+                    <div><a
+                            href="https://www.memphis.edu/#/vte/?data-platform=v&amp;data-link-type=immersive&amp;data-inst=63583&amp;data-image-width=100%&amp;data-image-height=320&amp;">Memphis</a>
+                    </div>
+                    <p>Take a look inside some of our academic programs in our virtual tour of the campus.</p>
+                </div>
+            </aside>
+            <section class="col-12 col-lg-8 col-xl-9 order-1 order-lg-2 pr-lg-5 content">
+                <div class="breadcrumb">
+                    <a href="">Home</a>
+                    <a href="">Contact U of M</a>
+                </div>
+                <p class="h2">We're here for you.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea doloribus hic odio, optio voluptate sint
+                    magnam id, consequuntur incidunt numquam asperiores facere totam neque labore reiciendis aut sunt
+                    nam obcaecati!</p>
+
+                <p><br><br>
+                    <a href="" class="btn btn-teal">Apply Now</a>
+                    <a href="" class="btn btn-green">Plan a Visit</a>
+                    <br><br>
+                </p>
+
+                <a class="toggle-content mt-4" data-toggle="collapse" href="#collapseContent1" role="button"
+                    aria-expanded="false" aria-controls="collapseContent1">
+                    UofM Address</a>
+
+                <div class="collapse my-3" id="collapseContent1">
+                    <address>The University of Memphis<br>Memphis, <abbr title="Tennessee">TN</abbr>
+                        38152<br>901.678.2000
+                    </address>
+                    <br>
+                    <a href="" class="btn btn-green">View in Google Maps</a>
+                </div>
+
+                <a class="toggle-content mt-4" data-toggle="collapse" href="#collapseContent2" role="button"
+                    aria-expanded="false" aria-controls="collapseContent2">
+                    Admissions</a>
+
+                <div class="collapse my-3" id="collapseContent2">
+                    <p id="undergraduate-admissions-information"><a id="undergraduate"
+                            title="Undergraduate Admissions Information"
+                            href="https://www.memphis.edu/admissions/index.php">Undergraduate Admissions Information</a>
+                    </p>
+
+                    <p><a href="mailto:recruitment@memphis.edu">recruitment@memphis.edu</a> - Phone: 901.678.2111 or
+                        800.669.2678<br>Office
+                        of Admissions<br>The University of Memphis<br>101 Wilder Tower<br>Memphis 38152-3520
+                    </p>
+
+                    <p id="graduate-school-admissions"><a id="graduate" title="Graduate School Admissions"
+                            href="https://www.memphis.edu/graduateadmissions/index.php">Graduate School Admissions</a>
+                    </p>
+
+                    <p><a title="Graduate Degree Program Contacts"
+                            href="https://www.memphis.edu/gradschool/directory.php">Graduate Degree
+                            Program Contacts</a>&nbsp;- Phone: 901.678-3685
+                    </p>
+
+                    <p id="law-school-admissions"><a id="law" title="Law School Admissions"
+                            href="https://www.memphis.edu/law/admissions/index.php">Law School Admissions</a></p>
+
+                    <p><a title="Email Law Admissions" href="mailto:lawadmissions@memphis.edu">Email Law
+                            Admissions</a>&nbsp;- Phone:
+                        901.678.5403
+                    </p>
+                </div>
+
+                <a class="toggle-content mt-4" data-toggle="collapse" href="#collapseContent3" role="button"
+                    aria-expanded="false" aria-controls="collapseContent3">
+                    Important Numbers</a>
+
+                <div class="collapse my-3" id="collapseContent3">
+                    <p id="uofm-operator">UofM Operator: 901.678.2000</p>
+
+                    <p><a title="UofM Alert Notification" href="https://www.memphis.edu/_alert/index.php">UofM Alert
+                            Notification</a></p>
+
+                    <p><a title="Media News Room" href="https://www.memphis.edu/mediaroom/index.php">Media News
+                            Room</a>: 901.678.2843
+                    </p>
+
+                    <p id="student-recruitment"><a title="New Student Orientation"
+                            href="https://www.memphis.edu/nso/index.php">New Student
+                            Orientation</a>: 901.678.5513 or 800.669.2678 (press 5)
+                    </p>
+
+                    <p id="transcripts"><a title="Official Transcripts"
+                            href="https://www.memphis.edu/registrar/students/records/transcript-official.php">Official
+                            Transcripts:</a>&nbsp;901.678.3927
+                    </p>
+
+                    <p id="financial-aid-and-scholarships"><a title="Financial Aid"
+                            href="https://www.memphis.edu/financialaid/index.php">Financial Aid</a>&nbsp;: 901.678.4825
+                    </p>
+
+                    <p id="registrar-helpline"><a title="Registrar /&nbsp;Registration Information"
+                            href="https://www.memphis.edu/registrar/index.php">Registrar /&nbsp;Registration
+                            Information</a>:&nbsp;901.678.2810
+                    </p>
+
+                    <p id="fee-payment"><a title="Fee Charts &amp; Fee Payment"
+                            href="https://www.memphis.edu/usbs/fees/index.php">Fee
+                            Charts &amp; Fee Payment</a>: 901.678.2712
+                    </p>
+
+                    <p id="police-services"><a title="Police Services"
+                            href="https://www.memphis.edu/police/index.php">Police
+                            Services</a>:&nbsp;901.678.HELP (4357)
+                    </p>
+
+                    <p><a title="Alumni Association" href="http://alumni.memphis.edu/">Alumni
+                            Association</a>:&nbsp;901.678.ALUM (2586)
+                    </p>
+
+                    <p><a title="Key Administrators / Leadership"
+                            href="https://www.memphis.edu/presweb/leadership/keyadministrators.php">Key Administrators /
+                            Leadership</a></p>
+
+                    <p><a title="Scholarships" href="https://www.memphis.edu/scholarships/index.php">Scholarships</a>
+                    </p>
+
+                    <p id="webmaster"><a title="UofM Suggestions"
+                            href="https://www.memphis.edu/suggestions/index.php">UofM Suggestions</a>
+                    </p>
+
+                    <p><a title="People Search" href="http://wp.memphis.edu/">People Search</a></p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="mt-5">
+        <div class="footer-top container-fluid text-blue py-3 px-md-5">
+            <hr>
+            <div class="d-xl-flex">
+                <div class="d-sm-flex flex-row flex-lg-column">
+                    <div class="d-flex flex-column flex-lg-row py-lg-2 horizontal-list flex-fill">
+                        <span>The University of Memphis</span>
+                        <span>Memphis, TN 38152</span>
+                        <span>Phone: 901.678.2000</span>
+                        <span>Last Updated: 10/14/18</span>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row pb-2 horizontal-list flex-fill my-4 my-sm-0">
+                        <a href="#">Important Notice</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Accessibility Policy</a>
+                        <a href="#">Non-Discrimination Policy</a>
+                        <span>2018 The University of Memphis</span>
+                    </div>
+                </div>
+                <div class="social-icons ml-auto mt-3 mt-xl-0 text-center text-xl-right d-flex align-items-center">
+                    <a href="#">
+                        <span class="fab fa-instagram fa-3x"></span>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                    <a class="ml-3" href="#">
+                        <span class="fab fa-facebook-f fa-3x"></span>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                    <a class="ml-3" href="#">
+                        <span class="fab fa-twitter fa-3x"></span>
+                        <span class="sr-only">twitter</span>
+                    </a>
+                    <a class="ml-3" href="#">
+                        <span class="fab fa-youtube fa-3x"></span>
+                        <span class="sr-only">Youtube</span>
+                    </a>
+                    <a class="ml-3" href="#">
+                        <span class="fab fa-pinterest fa-3x"></span>
+                        <span class="sr-only">Pinterest</span>
+                    </a>
+                    <a class="ml-3" href="#">
+                        <span class="fab fa-linkedin fa-3x"></span>
+                        <span class="sr-only">Linkedn</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="px-md-5 py-5 bg-darkblue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 mb-3">
+                        <p class="h4">Admissions</p>
+                        <nav aria-label="Admissions Footer Menu">
+                            <ul>
+                                <li><a onclick="taglink('Footer', 'AdmissionColumn', 'ProspectiveStudents');"
+                                        href="https://www.memphis.edu/prospective/"
+                                        aria-label="UofM Prospective Students">Prospective
+                                        Students</a></li>
+                                <li><a onclick="taglink('Footer', 'AdmissionColumn', 'Undergraduate');"
+                                        aria-label="Freshmen Apply for Undergraduate Admission"
+                                        href="https://www.memphis.edu/admissions/freshmen/apply_ugrd.php">Undergraduate</a>
+                                </li>
+                                <li><a onclick="taglink('Footer', 'AdmissionColumn', 'Graduate');"
+                                        aria-label="Graduate Admissions"
+                                        href="https://www.memphis.edu/graduateadmissions/">Graduate</a></li>
+                                <li><a onclick="taglink('Footer', 'AdmissionColumn', 'LawSchool');"
+                                        aria-label="Law School Admissions"
+                                        href="https://www.memphis.edu/law/admissions/">Law
+                                        School</a></li>
+                                <li><a onclick="taglink('Footer', 'AdmissionColumn', 'International');"
+                                        href="https://www.memphis.edu/admissions/international/apply_intl.php">International</a>
+                                </li>
+                                <li><a onclick="taglink('Footer', 'AdmissionColumn', 'Parents');"
+                                        aria-label="Parent and Family Services"
+                                        href="https://www.memphis.edu/umparents/">Parents</a></li>
+                                <li><a onclick="taglink('Footer', 'AdmissionColumn', 'FinancialAid');"
+                                        href="/financialaid/">Financial Aid</a>
+                                </li>
+                                <li><a onclick="taglink('Footer', 'AdmissionColumn', 'Scholarships');"
+                                        href="/scholarships/">Scholarships</a>
+                                </li>
+                                <li><a onclick="taglink('Footer', 'AdmissionColumn', 'TuitionAndFeePayment');"
+                                        href="https://www.memphis.edu/usbs/fees/index.php">Tuition &amp; Fee Payment</a>
+                                </li>
+                                <li><a onclick="taglink('Footer', 'AdmissionColumn', 'FAQs');"
+                                        aria-label="Admissions Frequently Asked Questions (FAQ)"
+                                        href="https://www.memphis.edu/admissions/faq.php">FAQs</a></li>
+                                <li><a onclick="taglink('Footer', 'AdmissionColumn', 'AboutUofM');"
+                                        href="https://www.memphis.edu/about/">About
+                                        UofM</a></li>
+                                <li><a title="Main Campus experience" aria-label="Virtual tour footer" href="#"
+                                        target="_blank" class=" processed">Virtual Tour</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mb-3">
+                        <p class="h4">Academics</p>
+                        <nav aria-label="Academics Footer Menu">
+                            <ul>
+                                <li><a onclick="taglink('Footer', 'AcademicsColumn', 'ProvostsOffice');"
+                                        href="https://www.memphis.edu/aa/about/">Provost's Office</a></li>
+                                <li><a onclick="taglink('Footer', 'AcademicsColumn', 'Libraries');"
+                                        href="https://www.memphis.edu/libraries/">Libraries</a></li>
+                                <li><a onclick="taglink('Footer', 'AcademicsColumn', 'Transcripts');"
+                                        href="https://www.memphis.edu/registrar/students/records/transcript-official.php">Transcripts</a>
+                                </li>
+                                <li><a onclick="taglink('Footer', 'AcademicsColumn', 'UndergraduateCatalog');"
+                                        href="https://catalog.memphis.edu/index.php?catoid=14">Undergraduate Catalog</a>
+                                </li>
+                                <li><a onclick="taglink('Footer', 'AcademicsColumn', 'GraduateCatlog');"
+                                        href="https://catalog.memphis.edu/index.php?catoid=9">Graduate Catalog</a></li>
+                                <li><a onclick="taglink('Footer', 'AcademicsColumn', 'AcademicCalendar');"
+                                        href="https://www.memphis.edu/registrar/calendars/">Academic Calendars</a></li>
+                                <li><a onclick="taglink('Footer', 'AcademicsColumn', 'CourseSchedule');"
+                                        href="https://www.memphis.edu/registrar/register/classes.php">Course
+                                        Schedule</a>
+                                </li>
+                                <li><a onclick="taglink('Footer', 'AcademicsColumn', 'Graduation');"
+                                        title="Graduating Students"
+                                        href="https://www.memphis.edu/commencement/graduates/">Graduation</a></li>
+                                <li><a onclick="taglink('Footer', 'AcademicsColumn', 'HonorsCollege');"
+                                        href="https://www.memphis.edu/honors/">Honors College</a></li>
+                                <li><a onclick="taglink('Footer', 'AcademicsColumn', 'eCourseware');"
+                                        href="https://elearn.memphis.edu/">eCourseware</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mb-3">
+                        <p class="h4">Athletics</p>
+                        <nav aria-label="Athletics Footer Menu">
+                            <ul>
+                                <li><a onclick="taglink('Footer', 'AthleticsColumn', 'gotigersgo.com');"
+                                        href="https://gotigersgo.com/" target="_blank">gotigersgo.com</a></li>
+                                <li><a onclick="taglink('Footer', 'AthleticsColumn', 'TicketInformation');"
+                                        href="https://gotigersgo.com/sports/2015/4/9/GEN_20140101529.aspx"
+                                        target="_blank">Ticket
+                                        Information</a></li>
+                                <li><a onclick="taglink('Footer', 'AthleticsColumn', 'IntramuralSports');"
+                                        href="https://www.memphis.edu/cris/sports/">Intramural Sports</a></li>
+                                <li><a onclick="taglink('Footer', 'AthleticsColumn', 'RecreationCenter');"
+                                        href="https://www.memphis.edu/cris/">Recreation Center</a></li>
+                                <li><a onclick="taglink('Footer', 'AthleticsColumn', 'AthleticAcademicSupport');"
+                                        href="https://www.memphis.edu/caas/">Athletic Academic Support</a></li>
+                                <li><a onclick="taglink('Footer', 'AthleticsColumn', 'FormerTigers');"
+                                        href="https://gotigersgo.com/index.aspx?path=m_club" target="_blank">Former
+                                        Tigers</a></li>
+                                <li><a onclick="taglink('Footer', 'AthleticsColumn', 'Facilities');"
+                                        title="Athletic Facilities" href="https://gotigersgo.com/facilities/"
+                                        target="_blank">Facilities</a></li>
+                                <li><a onclick="taglink('Footer', 'AthleticsColumn', 'TigerScholarshipFund');"
+                                        href="https://www.memphis.edu/tsf/">Tiger Scholarship Fund</a></li>
+                                <li><a onclick="taglink('Footer', 'AthleticsColumn', 'Media');"
+                                        href="https://gotigersgo.com/watch/" target="_blank">Media</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mb-3">
+                        <p class="h4">Research</p>
+                        <nav aria-label="Research Footer Menu">
+                            <ul>
+                                <li><a onclick="taglink('Footer', 'ResearchColumn', 'DivisionResearchInnovation');"
+                                        href="/research/">Division of Research and Innovation</a></li>
+                                <li><a onclick="taglink('Footer', 'ResearchColumn', 'ForResearchers');"
+                                        href="https://www.memphis.edu/research/researchers/index.php">For
+                                        Researchers</a>
+                                </li>
+                                <li><a onclick="taglink('Footer', 'ResearchColumn', 'CentersAndInstitutes');"
+                                        href="https://www.memphis.edu/research/facilities/centers_institutes.php">Centers
+                                        &amp;
+                                        Institutes</a></li>
+                                <li><a onclick="taglink('Footer', 'ResearchColumn', 'ChairsOfExcellence');"
+                                        href="https://www.memphis.edu/aa/recognition/chairsexcellence/index.php">Chairs
+                                        of
+                                        Excellence</a>
+                                </li>
+                                <li><a onclick="taglink('Footer', 'ResearchColumn', 'FedExInstituteOfTechnology');"
+                                        href="https://www.memphis.edu/fedex/">FedEx Institute of Technology</a></li>
+                                <li><a onclick="taglink('Footer', 'ResearchColumn', 'Libraries');"
+                                        href="https://www.memphis.edu/libraries/">Libraries</a></li>
+                                <li><a onclick="taglink('Footer', 'ResearchColumn', 'GrantsAccounting');"
+                                        href="https://www.memphis.edu/accounting/gc.php">Grants Accounting</a></li>
+                                <li><a onclick="taglink('Footer', 'ResearchColumn', 'EnvironmentalHealth');"
+                                        href="https://www.memphis.edu/ehs/">Environmental Health</a></li>
+                                <li><a onclick="taglink('Footer', 'ResearchColumn', 'OfficeOfInstitutionalResearch');"
+                                        href="https://www.memphis.edu/oir/">Office of Institutional Research</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mb-3">
+                        <p class="h4">Support UofM</p>
+                        <nav aria-label="Support UofM Footer Menu">
+                            <ul>
+                                <li><a onclick="taglink('Footer', 'SupportUofMColumn', 'MakeAGift');"
+                                        href="https://www.memphis.edu/development/supportum.php"
+                                        title="Support UofM Make a Gift">Make a
+                                        Gift</a></li>
+                                <li><a onclick="taglink('Footer', 'SupportUofMColumn', 'AlumniAssociation');"
+                                        href="http://alumni.memphis.edu/" target="_blank">Alumni Association</a></li>
+                                <li><a onclick="taglink('Footer', 'SupportUofMColumn', 'AthleticsDevelopment');"
+                                        href="https://www.memphis.edu/tsf/">Athletics Development</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mb-3">
+                        <p class="h4">Administrative Support</p>
+                        <nav aria-label="Administrative Support Footer Menu">
+                            <ul>
+                                <li><a onclick="taglink('Footer', 'AdministrativeSupportColumn', 'PresidentsOffice');"
+                                        href="https://www.memphis.edu/presweb/">President's Office</a></li>
+                                <li><a onclick="taglink('Footer', 'AdministrativeSupportColumn', 'AcademicAffairs');"
+                                        href="https://www.memphis.edu/aa/">Academic Affairs</a></li>
+                                <li><a onclick="taglink('Footer', 'AdministrativeSupportColumn', 'BusinessAndFinance');"
+                                        href="https://www.memphis.edu/bf/">Business &amp; Finance</a></li>
+                                <li><a onclick="taglink('Footer', 'AdministrativeSupportColumn', 'CareerOpportunities');"
+                                        href="https://workforum.memphis.edu/">Career Opportunities</a></li>
+                                <li><a onclick="taglink('Footer', 'AdministrativeSupportColumn', 'ConferenceAndEventServices');"
+                                        href="https://www.memphis.edu/conferences/">Conference &amp; Event Services</a>
+                                </li>
+                                <li><a onclick="taglink('Footer', 'AdministrativeSupportColumn', 'CorporatePartnerships');"
+                                        href="https://www.memphis.edu/corporatepartnerships/">Corporate Partnerships</a>
+                                </li>
+                                <li><a onclick="taglink('Footer', 'AdministrativeSupportColumn', 'DevelopmentOffice');"
+                                        href="https://www.memphis.edu/development/">Development Office</a></li>
+                                <li><a onclick="taglink('Footer', 'AdministrativeSupportColumn', 'GovernmentRelations');"
+                                        href="https://www.memphis.edu/govern/">Government Relations</a></li>
+                                <li><a onclick="taglink('Footer', 'AdministrativeSupportColumn', 'InformationTechnologyServices');"
+                                        href="https://www.memphis.edu/its/">Information Technology Services</a></li>
+                                <li><a onclick="taglink('Footer', 'AdministrativeSupportColumn', 'MediaAndMarketing');"
+                                        href="https://www.memphis.edu/communications/">Media and Marketing</a></li>
+                                <li><a onclick="taglink('Footer', 'AdministrativeSupportColumn', 'OperationsAndFacilities');"
+                                        href="https://www.memphis.edu/operations/">Operations and Facilities</a></li>
+                                <li><a onclick="taglink('Footer', 'AdministrativeSupportColumn', 'StudentAffairs');"
+                                        href="https://www.memphis.edu/academicsuccess/">Student Affairs</a></li>
+                                <li><a onclick="taglink('Footer', 'AdministrativeSupportColumn', 'UofMFoundation');"
+                                        href="https://www.uofmfoundation.org/" target="_blank">UofM Foundation</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid px-md-5 py-5 bg-darkerblue">
+            <p class="disclaimer">
+                The University of Memphis does not discriminate against students, employees, or applicants for admission
+                or employment on the basis of race, color, religion, creed, national origin, sex, sexual orientation,
+                gender identity/expression, disability, age, status as a protected veteran, genetic information, or any
+                other legally protected class with respect to all employment, programs and activities sponsored by the
+                University of Memphis. The Office for Institutional Equity has been designated to handle inquiries
+                regarding non-discrimination policies. For more information, visit The University of Memphis <a
+                    title="Equal Opportunity and Affirmative Action"
+                    href="https://www.memphis.edu/oie/eo-aa/eo.php">Equal
+                    Opportunity and Affirmative
+                    Action</a>.<br><br> Title IX of the Education Amendments of 1972 protects people from discrimination
+                based on sex in education programs or activities which receive Federal financial assistance. Title IX
+                states: "No person in the United States shall, on the basis of sex, be excluded from participation in,
+                be denied the benefits of, or be subjected to discrimination under any education program or activity
+                receiving Federal financial assistance..." 20 U.S.C. § 1681 - To Learn More, visit <a
+                    title="Title IX and Sexual Misconduct" href="https://www.memphis.edu/oie/title9/index.php">Title IX
+                    and Sexual Misconduct</a>.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script async="async" defer="defer" src="https://www.youvisit.com/tour/Embed/js2"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.toggle-menu').on('click', function () {
+                $('#hamburger-menu').toggleClass('show');
+                $('.sticky-footer').toggle();
+            });
+        });
+
+    </script>
+</body>
+</html>
