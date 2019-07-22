@@ -650,6 +650,18 @@ nav.secondary-nav .nav-item:first-child .nav-link { padding-left: 0; }
     color: #012c58;
     font-weight: bold;
 }
+
+.content-subpage nav .dropdown-toggle[aria-expanded="true"]:before {
+    content: "\f107";
+    display: inline-block;
+ 	font-family: "Font Awesome 5 Free";
+}
+.content-subpage nav .dropdown-toggle[aria-expanded="false"]:before {
+    content: "\f105";
+    display: inline-block;
+ 	font-family: "Font Awesome 5 Free";
+}
+
 .content-subpage nav .dropdown-item:hover { background: transparent; }
 
 .content-subpage .navbar-toggler {
