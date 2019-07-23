@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8">
     <title>The University of Memphis</title>
     <meta name="description" content="">
@@ -166,10 +167,9 @@
             <span>Scrolling text for breaking news or alerts | Text Continues to Scroll | Can have multiple messages
             </span>
         </div>
-        <div class="hero d-flex align-items-end justify-content-end"
-            style="background-image: url('img/Hero-Image.jpg');">
-            <div class="container mt-auto text-right">
-                <div class="hero-search-wrap mb-5 p-4 d-none d-md-inline-block">
+        <div class="hero d-flex" style="background-image: url('img/Hero-Image.jpg');">
+            <div class="container d-flex">
+                <div class="hero-search-wrap p-4 d-none d-md-block">
                     <p class="h2 text-blue mt-0 pt-0 mb-0 pb-3">Find what drives you:</p>
                     <form action="" method="">
                         <input type="text" name="search" value="" aria-label="Search programs, activities, and more"
@@ -203,7 +203,7 @@
 
     <main>
         <div class="container py-5 d-lg-flex">
-            <div class="d-flex mb-5 mb-lg-0 flex-fill">
+            <div class="d-flex mb-5 mb-lg-0">
                 <div class="my-auto">
                     <p class="h5 text-gray font-italic font-weight-bold mb-0 pb-0">On-Campus, Online.</p>
                     <p class="h2 text-blue pr-md-2">View All Academic Programs <span class="fas fa-chevron-down"></span>
@@ -236,10 +236,10 @@
         <div class="parallax parallax-and-overlay-wrap my-5 py-3 py-lg-0">
             <div class="container h-100">
                 <div class="d-flex h-100">
-                    <div class="jumping-girls my-auto d-none d-md-flex" style="flex: 1 1 0;">
+                    <div class="jumping-girls my-auto d-none d-md-flex flex-fix-ie">
                         <img src="img/Girls-Jumping.png" alt="Photo of Girls Jumping" />
                     </div>
-                    <div class="font-weight-bold d-flex pr-xl-5" style="flex: 1 1 0;">
+                    <div class="font-weight-bold d-flex pr-xl-5 flex-fix-ie">
                         <div class="my-auto py-2 py-lg-0 pr-xl-5">
                             <p class="text-white mr-xl-5">Insert catchy text about the University
                                 of Memphis here. The photo behind this
@@ -472,7 +472,7 @@
         <div class="container-fluid mt-3 get-involved-wrap">
             <div class="row">
                 <div class="col-7 col-sm-6 col-md-5 col-lg-4 col-xl-4 py-4 py-xl-5 pr-5 get-involved-content-left">
-                    <div class="d-flex flex-column justify-content-center">
+                    <div class="d-flex flex-column align-items-center">
                         <h2 class="ml-auto mb-4">Get Involved</h2>
                         <ul class="ml-auto mr-2" role="navigation">
                             <li class="get-involved-icon icon-student_orgs">
@@ -512,7 +512,7 @@
         <div class="px-md-5 py-5 bg-darkblue">
             <div class="container">
                 <div class="row">
-                    <div class="col-7 d-none d-lg-flex">
+                    <div class="col-7 d-none d-lg-flex flex-fix-ie">
                         <div class="row">
                             <div class="col-12 col-sm-6 col-md-4 mb-3">
                                 <p class="h4">Admissions</p>

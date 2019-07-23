@@ -79,10 +79,13 @@ h2, h3, .h2, .h3, .news-and-events-wrap .h6, .video-and-description .h4, .do-mor
     background-position: center center;
     background-size: cover;
 }
-
+.hero > .container { position: relative; }
 .hero-search-wrap {
     background-color: rgb(211,234,240);
     background-color: rgba(211,234,240, 0.9);
+    position: absolute;
+    right: 0;
+    bottom: 2rem;
 }
 .hero-search-wrap input[type="text"] {
     border: none;
@@ -90,6 +93,7 @@ h2, h3, .h2, .h3, .news-and-events-wrap .h6, .video-and-description .h4, .do-mor
     font-size: 0.89em;
     font-style: italic;
     font-weight: bold;
+    height: 3em;
     line-height: 3em;
     outline: none;
     padding-left: 0.5rem;
@@ -137,7 +141,7 @@ h2, h3, .h2, .h3, .news-and-events-wrap .h6, .video-and-description .h4, .do-mor
     background-position: center center;
     background-size: cover;
     color: #fff;
-    flex: 1 1 0;
+    flex: 1 1 0%;
     position: relative;
     height: 18vw;
     min-height: 6rem;
@@ -259,7 +263,12 @@ a.category-campus:before { background-color: #8f8f90; }
 
 
 /* Make flex items "full width" */
-.button-popout-wrap, .button-wrap, .callout-wrap { flex: 1 1 0; }
+.button-popout-wrap, .button-wrap, .callout-wrap { flex: 1 1 0%; }
+
+.flex-fix-ie {
+    flex: 1 1 0%;
+    flex-direction: column;
+}
 
 .button-wrap .btn { border-radius: 0; width: 100%; }
 
@@ -483,7 +492,7 @@ footer .social-icons a:hover {
 }
 
 @media(min-width: 768px) {
-    .hero { min-height: 40vw; }
+    .hero { height: 40vw; }
 
     .horizontal-list span:after,
     .horizontal-list a:after {
@@ -506,7 +515,7 @@ footer .social-icons a:hover {
 }
 
 @media(max-width: 767px) {
-    .hero { min-height: 56vw; }
+    .hero { height: 56vw; }
     .animated-square-wrap { height: 42vw; }
     .animated-square-wrap-outer { min-height: 42vw; }
 }
@@ -549,7 +558,7 @@ footer .social-icons a:hover {
     margin-right: 2rem;
 }
 
-.hamburger-menu .nav { flex: 1 1 0; }
+.hamburger-menu .nav { flex: 1 1 0%; }
 .hamburger-menu-right { border-left: 2px solid #90c155; }
 
 .hamburger-menu-left .nav-item { font-size: calc(1rem + 0.6vw); }
@@ -733,7 +742,7 @@ nav.secondary-nav .nav-item:first-child .nav-link { padding-left: 0; }
 }
 .video-description p { max-width: 22rem; }
 
-.video-responsive { flex: 1 1 0; }
+.video-responsive { flex: 1 1 0%; }
 .video-responsive iframe { height: 100%; width: 100%; min-height: 22vw; }
 
 .nationally-ranked-badge { max-width: 8rem; }
