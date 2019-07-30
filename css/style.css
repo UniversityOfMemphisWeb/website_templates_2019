@@ -809,3 +809,14 @@ nav.secondary-nav .nav-item:first-child .nav-link { padding-left: 0; }
         background: rgba(0, 73, 143, 0.75);
     }
 }
+
+.majorList { margin-bottom: 1rem !important; }
+
+.majorList > li > a {
+    color: #003e7a;
+    border-left: none;
+    margin: 0;
+    padding: 0.25rem;
+    transition: none;
+}
+.majorList > li > a:hover { background: none; color: #003e7a; }
