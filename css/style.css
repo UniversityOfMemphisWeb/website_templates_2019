@@ -37,7 +37,7 @@ h2, h3, .h2, .h3, .news-and-events-wrap .h6, .video-and-description .h4, .do-mor
 }
 
 .button-popout-wrap:hover .btn-green, .btn-green:hover { background: transparent; color: #90c155; border-color: #90c155; }
-.button-popout-wrap:hover .btn-darkblue, .btn-darkblue:hover { background: transparent; color: #012c58; border-color: #012c58; }
+.button-popout-wrap:hover .btn-darkblue, .btn-darkblue:hover, .btn-darkblue.active { background: transparent; color: #012c58; border-color: #012c58; }
 .button-popout-wrap:hover .btn-blue, .btn-blue:hover { background: transparent; color: #00498f; border-color: #00498f; }
 .button-popout-wrap:hover .btn-lightblue, .btn-lightblue:hover { background: transparent; color: #24b4c6; border-color: #24b4c6; }
 .button-popout-wrap:hover .btn-teal, .btn-teal:hover { background: transparent; color: #56b2c3; border-color: #56b2c3; }
@@ -820,3 +820,6 @@ nav.secondary-nav .nav-item:first-child .nav-link { padding-left: 0; }
     transition: none;
 }
 .majorList > li > a:hover { background: none; color: #003e7a; }
+
+.nav-pills__item .nav-pills__link:hover,
+.nav-pills__item .nav-pills__link.active { background-color: #007C9E; color: #fff; }
