@@ -823,3 +823,5 @@ nav.secondary-nav .nav-item:first-child .nav-link { padding-left: 0; }
 
 .nav-pills__item .nav-pills__link:hover,
 .nav-pills__item .nav-pills__link.active { background-color: #007C9E; color: #fff; }
+
+.navbar-nav .dropdown-toggle { white-space: normal; }
