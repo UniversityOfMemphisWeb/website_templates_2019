@@ -1,0 +1,247 @@
+.tiger-blue {
+    background: url('../img/prospective/backgrounds/tiger-blue.jpg') no-repeat center bottom;
+    background-size: cover;
+}
+
+.plan-visit {
+    background: url('../img/prospective/backgrounds/plan-visit.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.next-steps {
+    background: url('../img/prospective/backgrounds/next-steps.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.got-your-back {
+    background: url('../img/prospective/backgrounds/got-your-back.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.memphis-campus {
+    background: url('../img/prospective/backgrounds/Memphis-Campus.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.lambuth-campus {
+    background: url('../img/prospective/backgrounds/Lambuth-Campus.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.online-degree {
+    background: url('../img/prospective/backgrounds/Online-Degree.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.btn-transparent { border: 1px solid #56b2c3; }
+.btn-transparent:hover { background-color: #56b2c3; }
+
+.bg-lightgray { background-color: #efefef;}
+
+.get-informed, .get-involved { display: none; }
+
+.quick-links .toggle-content:hover { text-decoration: none; }
+.quick-links .toggle-content[aria-expanded="false"] { background-color: #56b2c3; }
+.quick-links .toggle-content[aria-expanded="true"] { background-color: #90c155; }
+
+@media(min-width: 1600px) {
+    .get-informed, .get-involved {
+        position: absolute;
+        display: block;
+        bottom: 0;
+        top: 0;
+        left: -15rem;
+        margin: auto 0;
+        max-height: 630px;
+    }
+}
+
+@media(min-width: 1300px) {
+    .hero-prospective-students { min-height: 46vw; }
+
+    .hero-prospective-students .h3 { font-size: calc(1.75rem + 1vw); }
+
+    .hero-prospective-students .display-1 { font-size: calc(6rem + 4vw); }
+}
+
+@media(min-width: 992px) {
+    .carousel-indicators {
+        bottom: 4rem;
+        margin-left: 25%;
+        margin-right: 0;
+        right: auto;
+    }
+    .carousel-right .carousel-indicators {
+        bottom: 4rem;
+        margin-left: 0;
+        margin-right: 15%;
+        left: auto;
+        right: 0;
+    }
+    .memphis-campus, .lambuth-campus, .online-degree {
+        min-height: 12rem;
+        max-width: 33%;
+    }
+}
+
+@media(max-width: 991px) {
+    /* .carousel-indicators {
+        bottom: 3rem;
+    } */
+    .memphis-campus, .lambuth-campus, .online-degree {
+        min-height: 12rem;
+        max-width: 50%;
+        margin: 0 auto 1rem auto;
+    }
+}
+
+@media(max-width: 567px) {
+    .fa-5x { font-size: 3rem; }
+}
+
+@media(min-width: 481px) and (max-width: 567px) {
+    .hero-prospective-students { min-height: 76vw; }
+
+    .hero-prospective-students .h3 { font-size: 1.25rem; }
+
+    .hero-prospective-students .display-1 { font-size: 4rem; }
+}
+
+@media(max-width: 480px) {
+    .hero-prospective-students .h3 { font-size: 1rem; }
+
+    .hero-prospective-students .display-1 { font-size: 3rem; }
+
+    .memphis-campus, .lambuth-campus, .online-degree { max-width: 100%; }
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    background-color: #fff;
+    border: 1px solid #fff;
+    margin-right: 0.75rem;
+    opacity: 1;
+}
+
+.carousel-indicators li.active {
+    background-color: #56b2c3;
+    border-color: #56b2c3;
+}
+
+.bg-darkblue .carousel-indicators li.active {
+    background-color: #012c58;
+    border-color: #012c58;
+}
+
+.form-inline input[type="email"] {
+    border: none;
+    background-color: #eee;
+    color: #222;
+    font-style: italic;
+    height: 3em;
+    line-height: 3em;
+    outline: none;
+    padding-left: 0.5rem;
+    text-align: left;
+    width: 25rem;
+}
+
+.form-inline button {
+    background-color: #90c155;
+    border: none;
+    color: #fff;
+    height: 3em;
+    width: 3em;
+}
+
+/* */
+.image-square-wrap {
+    background-color: #222;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    flex: 1 1 0%;
+    position: relative;
+    height: 15vw;
+    min-height: 6rem;
+    overflow: hidden;
+}
+
+.image-square-wrap-outer a { color: #fff; }
+.image-square-wrap-outer a:after {
+    content: '>';
+    color: #fff;
+    display: inline-block;
+    margin-left: 0.25rem;
+}
+.image-square-wrap-outer a:hover { color: #fff; text-decoration: underline; }
+
+.image-square-wrap span {
+    position: absolute;
+    bottom: 0.75rem;
+    left: 0.75rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+.image-square-wrap-inner:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-right: 23vw solid transparent;
+    border-bottom: 8vw solid #00498f;
+    border-bottom-color: rgb(0, 73, 143);
+    border-bottom-color: rgba(0, 73, 143, 0.8);
+    content: '';
+}
+
+.image-square-wrap-outer {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgb(0, 73, 143);
+    background-color: rgba(0, 73, 143, 0.8);
+    width: 100vw;
+    height: 15vw;
+    transition: all 0.33s ease-out;
+}
+
+.image-square-wrap:hover .image-square-wrap-outer {
+    top: 0;
+    transition: all 0.33s ease-out;
+}
+
+.image-square-wrap .image-square-wrap-inner {
+    position: absolute;
+    bottom: 0;
+    transition: all 0.33s ease-out;
+    width: 100%;
+}
+
+.image-square-wrap:hover .image-square-wrap-inner {
+    position: absolute;
+    bottom: 100%;
+    transition: all 0.33s ease-out;
+}
+
+@media(max-width: 991px) {
+    .image-square-wrap { height: 34vw; }
+    .image-square-wrap-inner { display: none; }
+
+    .image-square-wrap-outer {
+        background-color: rgb(0, 73, 143);
+        background-color: rgba(0, 73, 143, 0.7);
+        min-height: 34vw;
+        top: 0;
+    }
+}
+
+@media(max-width: 767px) {
+    .image-square-wrap { height: 42vw; }
+    .image-square-wrap-outer { min-height: 42vw; }
+}
