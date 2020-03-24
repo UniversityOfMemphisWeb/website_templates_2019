@@ -1,0 +1,140 @@
+.content .h3 {
+    color: #00498f;
+    font-family: 'Proxima Nova', sans-serif;
+    margin-top: 3rem;
+}
+
+.content p { color: #575757; }
+
+hr.explore-lambuth {
+    background: #999;
+    height: 2px;
+}
+
+p.explore-campus { color: #012c58; }
+
+@media(min-width: 992px) {
+    p.explore-campus { letter-spacing: 0.5em; }
+}
+
+a.social:hover,
+.secondary-nav .nav-item:hover .nav-link,
+.secondary-nav .nav-item .nav-link:hover
+{ text-decoration: none !important; }
+
+.secondary-nav .nav-item:hover { background-color: #00498f; }
+
+/* Overriding other sidebar/nav styles */
+.lambuth-sidebar { background-color: #EDEDED; }
+
+aside .h3 {
+    font-family: 'Proxima Nova', sans-serif;
+    width: 110%;
+}
+
+.lambuth-sidebar nav .nav-item .dropdown-toggle,
+.lambuth-sidebar nav .nav-item .dropdown-toggle:hover {
+    color: #00498f;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.lambuth-sidebar nav .dropdown-toggle[aria-expanded="false"]::before,
+.lambuth-sidebar nav .dropdown-toggle[aria-expanded="true"]::before
+ { content: ''; display: none; }
+
+.lambuth-sidebar nav .dropdown-toggle[aria-expanded="false"]::after {
+    content: "\f105"
+}
+
+.lambuth-sidebar nav .dropdown-toggle[aria-expanded="true"]::after {
+    content: "\f107";
+}
+
+.lambuth-sidebar nav .dropdown-toggle::after {
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-size: 1.25rem;
+    border: none;
+    position: absolute;
+    padding-left: 0.25rem;
+}
+
+.lambuth-sidebar .dropdown-menu .dropdown-item { padding-left: 0; }
+
+.lambuth-sidebar .dropdown-menu { background: transparent; }
+
+.take-action .nav-item {
+    border-bottom: #999 dotted;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 0.5rem 0;
+}
+
+.lambuth-sidebar .take-action .nav-item .nav-link {
+    color: #00498f;
+}
+.lambuth-sidebar .take-action .nav-item .nav-link:hover { text-decoration: none; }
+
+.bg-lightgray { background-color: #EDEDED; }
+
+.bg-lightgray .h3 {
+    border-bottom: #999 dotted;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.subpage-hero {
+    align-items: flex-start;
+    font-family: 'Bitter', sans-serif;
+}
+.subpage-hero .h1, .subpage-hero .h5 { font-weight: bold; }
+
+.ribbon {
+    position: relative;
+}
+
+.ribbon:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: -40px;
+  bottom: 0;
+  top: 0;
+  border-bottom: 44px solid #012c58;
+  border-top: 44px solid #012c58;
+  border-right: 40px solid transparent;
+}
+
+.stay-connected .h1 {
+    font-family: 'Bitter', sans-serif;
+    font-weight: bold;
+}
+
+.stay-connected .text-teal {
+    font-weight: bold;
+    letter-spacing: 0.5em;
+}
+
+.accent-bars {
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.learn-more-link:before {
+    background-color: #5AB2C2;
+    border-radius: 50%;
+    color: #fff;
+    content: "\f105";
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    padding: 0 0.5rem;
+}
+
+@media(max-width: 767px) {
+    main section .h2 { font-size: 1.75rem; }
+}
