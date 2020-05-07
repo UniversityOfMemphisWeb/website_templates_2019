@@ -64,6 +64,9 @@ h2, h3, .h2, .h3, .news-and-events-wrap .h6, .video-and-description .h4, .do-mor
 }
 
 .text-gray { color: #8f8f90; }
+small .text-gray,
+small.text-gray { color: #666; }
+
 .text-blue, .text-blue a { color: #003e7a; }
 .text-lightblue, .text-lightblue a  { color: #24b4c6; }
 .text-green, .text-green a  { color: #90c155; }
